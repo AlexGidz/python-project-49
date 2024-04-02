@@ -7,6 +7,7 @@ readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = ["Don't know what to write"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
