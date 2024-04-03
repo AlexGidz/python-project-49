@@ -1,16 +1,17 @@
 import random
 from brain_games.engine import run_game
-from brain_games.consts import MIN_PROGRESSION_LENGTH, MAX_PROGRESSION_LENGTH, PROGRESSION_INSTRUCTION
+from brain_games.consts import MIN_PROGRESSION_LENGTH
+from brain_games.consts import MAX_PROGRESSION_LENGTH, PROGRESSION_INSTRUCTION
 
 
 def get_progression_and_missed_num():
-    progression_start, progression_step = random.randint(1, 10), random.randint(1, 10)
-    progression_length = random.randint(MIN_PROGRESSION_LENGTH, MAX_PROGRESSION_LENGTH)
-    missed_index = random.randint(0, progression_length - 1)
+    prog_start, prog_step = random.randint(1, 10), random.randint(1, 10)
+    prog_length = random.randint(MIN_PROGRESSION_LENGTH, MAX_PROGRESSION_LENGTH)
+    missed_index = random.randint(0, prog_length - 1)
 
     progression = []
-    for i in range(progression_length):
-        progression.append(progression_start + progression_step * i)
+    for i in range(prog_length):
+        progression.append(prog_start + prog_step * i)
 
     missed_num = progression[missed_index]
     progression[missed_index] = '..'
