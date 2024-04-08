@@ -9,11 +9,15 @@ asciinema link for brain-even:
 
 
 asciinema link for brain-calc:
+
 <a href="https://asciinema.org/a/odwwBOwmWuss2mWLsrJWk5SlE" target="_blank"><img src="https://asciinema.org/a/odwwBOwmWuss2mWLsrJWk5SlE.svg" /></a>
 
 https://asciinema.org/connect/86ea3fb1-e280-4c96-8606-86d68f289690
 
 asciinema link for brain-gcd:
+
+[![asciicast](https://asciinema.org/a/Nua6GXfaZDkWwHPcpLrRSIVuX.svg)](https://asciinema.org/a/Nua6GXfaZDkWwHPcpLrRSIVuX)
+
 https://asciinema.org/a/Nua6GXfaZDkWwHPcpLrRSIVuX
 
 asciinema link for brain-progression:
