@@ -23,4 +23,5 @@ asciinema link for brain-progression:
 <a href="https://asciinema.org/a/4qEFwODeheZsSR3DJlGtj5g4R" target="_blank"><img src="https://asciinema.org/a/4qEFwODeheZsSR3DJlGtj5g4R.svg" /></a>
 
 asciinema link for brain-prime:
-https://asciinema.org/a/nriIpXQzDrLC6T34ONYPrNHYr
+
+<a href="https://asciinema.org/a/nriIpXQzDrLC6T34ONYPrNHYr" target="_blank"><img src="https://asciinema.org/a/nriIpXQzDrLC6T34ONYPrNHYr.svg" /></a>
