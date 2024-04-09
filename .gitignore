@@ -1,10 +1,9 @@
-# Зависимости не хранят в репозитории
 .venv/
 *.egg-info
-__pycache__
+brain_games/scripts/__pycache__
 dist/
 *.pyc
 .coverage
 coverage.xml
 .pytest_cache/
-.brain_games/.DS_Store
+brain_games/.DS_Store
