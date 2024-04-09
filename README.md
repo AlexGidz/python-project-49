@@ -3,7 +3,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/229b30e45cd1183da0e5/maintainability)](https://codeclimate.com/github/AlexGidz/python-project-49/maintainability)
 
-
 asciinema link for brain-even:
 
 <a href="https://asciinema.org/a/GRM8B3oFlrN5OIropZNaiBP24" target="_blank"><img src="https://asciinema.org/a/GRM8B3oFlrN5OIropZNaiBP24.svg" /></a>
