@@ -19,21 +19,42 @@ brain-even
 ```
 <a href="https://asciinema.org/a/GRM8B3oFlrN5OIropZNaiBP24" target="_blank"><img src="https://asciinema.org/a/GRM8B3oFlrN5OIropZNaiBP24.svg" /></a>
 
+#### Игра 2. «Калькулятор»
+##### В данной игре нужно сумму или разность двух случайных чисел.
+##### Для запуска введите команду:
 
-asciinema link for brain-calc:
+```no-highlight
+brain-calc
+```
 
 <a href="https://asciinema.org/a/odwwBOwmWuss2mWLsrJWk5SlE" target="_blank"><img src="https://asciinema.org/a/odwwBOwmWuss2mWLsrJWk5SlE.svg" /></a>
 
+#### Игра 3. «НОД»
+##### В данной игре нужно определить наибольший общий делитель для пары чисел.
+##### Для запуска введите команду:
 
-asciinema link for brain-gcd:
+```no-highlight
+brain-gcd
+```
 
 <a href="https://asciinema.org/a/Nua6GXfaZDkWwHPcpLrRSIVuX" target="_blank"><img src="https://asciinema.org/a/Nua6GXfaZDkWwHPcpLrRSIVuX.svg" /></a>
 
+#### Игра 4. «Арифметическая прогрессия»
+##### В данной игре нужно определить пропущенное число в представленной арифметической прогрессии.
+##### Для запуска введите команду:
 
-asciinema link for brain-progression:
+```no-highlight
+brain-progression
+```
 
 <a href="https://asciinema.org/a/4qEFwODeheZsSR3DJlGtj5g4R" target="_blank"><img src="https://asciinema.org/a/4qEFwODeheZsSR3DJlGtj5g4R.svg" /></a>
 
-asciinema link for brain-prime:
+#### Игра 5. «Простое ли число?»
+##### В данной игре нужно определить является ли представленное число простым.
+##### Для запуска введите команду:
+
+```no-highlight
+brain-prime
+```
 
 <a href="https://asciinema.org/a/nriIpXQzDrLC6T34ONYPrNHYr" target="_blank"><img src="https://asciinema.org/a/nriIpXQzDrLC6T34ONYPrNHYr.svg" /></a>
