@@ -20,9 +20,5 @@ def get_question_and_sign():
     return question, str(answer)
 
 
-def instruction():
-    return CALC_INSTRUCTION
-
-
 def run_calc_game():
-    run_game(get_question_and_sign, instruction)
+    run_game(get_question_and_sign, CALC_INSTRUCTION)
