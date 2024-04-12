@@ -1,6 +1,4 @@
 import random
-from brain_games.engine import run_game
-from brain_games.consts import PRIME_INSTRUCTION
 
 
 def is_prime(num):
@@ -18,10 +16,3 @@ def get_number_and_if_prime_answer():
     answer = 'yes' if is_prime(number) is True else 'no'
     return number, answer
 
-
-def instruction():
-    return PRIME_INSTRUCTION
-
-
-def run_prime_game():
-    run_game(get_number_and_if_prime_answer, instruction)

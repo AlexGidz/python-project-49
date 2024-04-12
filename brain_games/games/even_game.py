@@ -1,6 +1,4 @@
 import random
-from brain_games.engine import run_game
-from brain_games.consts import EVEN_INSTRUCTION
 
 
 def if_even_num(num):
@@ -18,10 +16,3 @@ def get_question_and_even_answer():
     answer = answer()
     return question, answer
 
-
-def instruction():
-    return EVEN_INSTRUCTION
-
-
-def run_even_game():
-    run_game(get_question_and_even_answer, instruction)

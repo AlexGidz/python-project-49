@@ -1,6 +1,4 @@
 import random
-from brain_games.engine import run_game
-from brain_games.consts import CALC_INSTRUCTION
 
 
 def get_question_and_sign():
@@ -18,7 +16,3 @@ def get_question_and_sign():
             answer = (num1 * num2)
 
     return question, str(answer)
-
-
-def run_calc_game():
-    run_game(get_question_and_sign, CALC_INSTRUCTION)
