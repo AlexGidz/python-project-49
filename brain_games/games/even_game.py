@@ -15,4 +15,3 @@ def get_question_and_even_answer():
         return 'yes' if if_even_num(question) is True else 'no'
     answer = answer()
     return question, answer
-
