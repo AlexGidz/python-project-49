@@ -1,4 +1,5 @@
 import random
+EVEN_INSTRUCTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def if_even_num(num):
@@ -8,10 +9,14 @@ def if_even_num(num):
         return False
 
 
-def get_question_and_even_answer():
+def get_question_and_answer():
     question = random.randint(1, 100)
 
     def answer():
         return 'yes' if if_even_num(question) is True else 'no'
     answer = answer()
-    return question, answer
+    return question, answer, EVEN_INSTRUCTION
+
+
+def even_game():
+    return get_question_and_answer()

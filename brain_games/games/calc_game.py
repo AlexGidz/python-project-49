@@ -1,7 +1,8 @@
 import random
+CALC_INSTRUCTION = 'What is the result of the expression?'
 
 
-def get_question_and_sign():
+def get_question_and_answer():
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
     sign = random.choice(['+', '-', '*'])
@@ -15,4 +16,8 @@ def get_question_and_sign():
         case '*':
             answer = (num1 * num2)
 
-    return question, str(answer)
+    return question, str(answer), CALC_INSTRUCTION
+
+
+def calc_game():
+    return get_question_and_answer()
