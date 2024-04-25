@@ -1,6 +1,6 @@
 import random
 from math import gcd
-GCD_INSTRUCTION = 'Find the greatest common divisor of given numbers.'
+INSTRUCTION = 'Find the greatest common divisor of given numbers.'
 
 
 def get_question_and_answer():
@@ -9,8 +9,4 @@ def get_question_and_answer():
 
     question = f'{num1} {num2}'
     answer = str(gcd(num1, num2))
-    return question, answer, GCD_INSTRUCTION
-
-
-def gcd_game():
-    return get_question_and_answer()
+    return question, answer

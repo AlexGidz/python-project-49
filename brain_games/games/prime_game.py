@@ -1,5 +1,5 @@
 import random
-PRIME_INSTRUCTION = (
+INSTRUCTION = (
     'Answer "yes" if given number is prime. '
     'Otherwise answer "no".'
 )
@@ -18,8 +18,4 @@ def is_prime(num):
 def get_question_and_answer():
     number = random.randint(1, 20)
     answer = 'yes' if is_prime(number) is True else 'no'
-    return number, answer, PRIME_INSTRUCTION
-
-
-def prime_game():
-    return get_question_and_answer()
+    return number, answer

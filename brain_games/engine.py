@@ -2,14 +2,14 @@ import prompt
 AMOUNT_OF_ROUNDS = 3
 
 
-def run_game(get_question_and_answer):
+def run_game(game_module):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!\n'
-          f'{get_question_and_answer()[2]}')
+          f'{game_module.INSTRUCTION}')
 
     for _ in range(AMOUNT_OF_ROUNDS):
-        question, correct_answer, _ = get_question_and_answer()
+        question, correct_answer = game_module.get_question_and_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:

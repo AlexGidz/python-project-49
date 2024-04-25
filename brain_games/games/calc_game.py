@@ -1,5 +1,5 @@
 import random
-CALC_INSTRUCTION = 'What is the result of the expression?'
+INSTRUCTION = 'What is the result of the expression?'
 
 
 def get_question_and_answer():
@@ -11,13 +11,8 @@ def get_question_and_answer():
     match sign:
         case '+':
             answer = (num1 + num2)
-        case '-':
+        case '+':
             answer = (num1 - num2)
         case '*':
             answer = (num1 * num2)
-
-    return question, str(answer), CALC_INSTRUCTION
-
-
-def calc_game():
-    return get_question_and_answer()
+    return question, str(answer)

@@ -1,7 +1,7 @@
 import random
 from brain_games.consts import MIN_PROGRESSION_LENGTH
 from brain_games.consts import MAX_PROGRESSION_LENGTH
-PROGRESSION_INSTRUCTION = 'What number is missing in the progression?'
+INSTRUCTION = 'What number is missing in the progression?'
 
 
 def get_question_and_answer():
@@ -17,8 +17,4 @@ def get_question_and_answer():
     progression[missed_index] = '..'
     progression_with_missed_num = ' '.join(map(str, progression))
 
-    return progression_with_missed_num, str(missed_num), PROGRESSION_INSTRUCTION
-
-
-def progression_game():
-    return get_question_and_answer()
+    return progression_with_missed_num, str(missed_num)
