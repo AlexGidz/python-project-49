@@ -15,5 +15,5 @@ def get_question_and_answer():
             answer = (num1 - num2)
         case '*':
             answer = (num1 * num2)
-    
+
     return question, str(answer)
