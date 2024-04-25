@@ -11,7 +11,7 @@ def get_question_and_answer():
     match sign:
         case '+':
             answer = (num1 + num2)
-        case '+':
+        case '-':
             answer = (num1 - num2)
         case '*':
             answer = (num1 * num2)
